@@ -37,19 +37,19 @@ function main() {
 
         switch (data.weather[0].main) {
           case 'Clear':
-            image.src = 'images/clear.png';
+            image.src = 'img/clear.png';
             break;
           case 'Clouds':
-            image.src = 'images/cloud.png';
+            image.src = 'img/cloud.png';
             break;
           case 'Rain':
-            image.src = 'images/rain.png';
+            image.src = 'img/rain.png';
             break;
           case 'Snow':
-            image.src = 'images/snow.png';
+            image.src = 'img/snow.png';
             break;
           default:
-            image.src = 'images/404.png';
+            image.src = 'img/404.png';
             break;
         }
 
